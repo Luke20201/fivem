@@ -187,7 +187,7 @@ namespace rage
 				return;
 			}
 
-			trace(fmt::format("MODEL DEBUG: Loading model 0x{:08x}", entry->m_hash));
+			trace(fmt::format("MODEL DEBUG: Loading model {}", entry->m_hash));
 			entry->Run();
 		}
 	}
